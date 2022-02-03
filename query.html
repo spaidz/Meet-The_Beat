@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Web Dev CW</title>
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="query.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+<!--Navigation bar-->
+<nav class="navbar">
+	`<a href="main.html" id="navbar_logo"><img src="media/logoMain.png" id="icon2">Meet The Beat</a>
+	<div class="navbar_container"> 
+        <ul class="navbar_menu">
+            <li class="navbar_item">
+                <a href="main.html" class="navbar_links" id="home-page">Home</a>
+            </li>
+            <li class="navbar_item">
+                <a href="https://w1810002.users.ecs.westminster.ac.uk/BuyProducts.html#products" class="navbar_links" id="products-page">Products</a>
+            </li>
+		<li class="navbar_item">
+                <a href="#query" class="navbar_links" id="query-page">Queries</a>
+            </li>
+            <li class="navbar_item">
+                <a href="https://w1809999.users.ecs.westminster.ac.uk/aboutus.html" class="navbar_links" id="about-page">About Us</a>
+            </li>
+            <li class="navbar_item">
+                <a href="https://w1809999.users.ecs.westminster.ac.uk/quiz.html" class="navbar_links" id="quiz-page">Quiz</a>
+            </li>
+            <li class="navbar_item">
+                <a href="https://w1809847.users.ecs.westminster.ac.uk/thumbnail.html#products" class="navbar_links" id="gallary-page">Gallery</a>
+            </li>
+            <li class="navbar_item">
+                <a href="https://w1809847.users.ecs.westminster.ac.uk/Sitemap.html" class="navbar_links" id="sitemap-page">Sitemap</a>
+            </li>
+        </ul> 
+	</div>
+</nav>
+<section>
+<img src="media/pic5.jpg" id="bgImg">
+<div class="wrapper">
+  <h1>Contact us</h1>
+  <div id="error_message">
+     
+  </div>
+  <form action="" id="myform" onsubmit = "return validate();">
+    <div class="input_field">
+        <input type="text" placeholder="Name" id="name">
+    </div>
+    <br>
+    <div class="radio">
+	<p>Choose a subject</p><br>
+        <input type="radio" id="subject" name="subject" Value="Shipping">Shipping</input>
+	<input type="radio" id="subject" name="subject" Value="Music">Music</input>
+	<input type="radio" id="subject" name="subject" Value="Other">Other</input>
+    </div>
+    <br>
+    <div class="input_field">
+        <input type="text" placeholder="Phone" id="phone">
+    </div>
+    <div class="input_field">
+        <input type="text" placeholder="Email" id="email">
+    </div>
+    <div class="input_field">
+        <textarea placeholder="Message" id="message"></textarea>
+    </div>
+    <div class="btn">
+        <button value="Send" onclick="check();">Check</button>
+	<input type="submit" value="Submit" onclick="validate();">
+    </div>
+  </form>
+<div id="query_check">
+    
+  </div>
+</div>
+</section>
+<!--footer-->
+<footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>company</h4>
+  	 			<ul>
+  	 				<li><a href="#">about us</a></li>
+  	 				<li><a href="#">our services</a></li>
+  	 				<li><a href="#">privacy policy</a></li>
+  	 				<li><a href="#">affiliate program</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>get help</h4>
+  	 			<ul>
+  	 				<li><a href="#">FAQ</a></li>
+  	 				<li><a href="#">shipping</a></li>
+  	 				<li><a href="#">returns</a></li>
+  	 				<li><a href="#">order status</a></li>
+  	 				<li><a href="#">payment options</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>online shop</h4>
+  	 			<ul>
+  	 				<li><a href="#">Instruments</a></li>
+  	 				<li><a href="#">Merchendise</a></li>
+  	 				<li><a href="#">Albums</a></li>
+  	 				<li><a href="#">Accessories</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fab fa-twitter"></i></a>
+  	 				<a href="#"><i class="fab fa-instagram"></i></a>
+  	 				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+				<button class="main_btn"><a href="pageEditor(std_2).html">Page Editor</a></button>
+  	 		</div>
+  	 	</div>
+	<br><br><p><font color="white"><center>Thank you for visiting meet the beat. Come visit us again soon.</center></font></p>
+  	</div>
+</footer>
+<script type="text/javascript" src="query.js"></script>
+</body>
+</html>

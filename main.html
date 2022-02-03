@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Web Dev CW</title>
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+<!--Navigation bar-->
+<nav class="navbar">
+	`<a href="#home" id="navbar_logo"><img src="media/logoMain.png" id="icon2" alt="logo">Meet The Beat</a>
+	<div class="navbar_container"> 
+        <ul class="navbar_menu">
+            <li class="navbar_item">
+                <a href="#home" class="navbar_links" id="home-page">Home</a>
+            </li>
+            <li class="navbar_item">
+                <a href="#products" class="navbar_links" id="products-page">Products</a>
+            </li>
+		<li class="navbar_item">
+                <a href="#query" class="navbar_links" id="query-page">Queries</a>
+            </li>
+            <li class="navbar_item">
+                <a href="#about" class="navbar_links" id="about-page">About Us</a>
+            </li>
+            <li class="navbar_item">
+                <a href="#quiz" class="navbar_links" id="quiz-page">Quiz</a>
+            </li>
+            <li class="navbar_item">
+                <a href="#gallery" class="navbar_links" id="gallary-page">Gallery</a>
+            </li>
+            <li class="navbar_item">
+                <a href="#sitemap" class="navbar_links" id="sitemap-page">Sitemap</a>
+            </li>
+        </ul> 
+	<div class="music">
+	<p>click to listen </p>
+	<img src="media/play.png" id="icon" alt="playIcon">
+	</div>
+	</div>
+</nav>
+<!--Background Video-->
+<section>
+    <div class="videoContainer">
+        <video height="1040" autoplay loop muted>
+            <source src="media/mov1.mp4" type="video/mp4">
+        </video>
+    </div>
+	<div class="content" id="home">
+		<h1>Welcome To <span class="newGrad"><br>Meet The Beat</span></h1>
+		<h2>Lets Expore</h2>
+	</div>
+</section>
+<section>
+	<img src="media/pic1.jpg" class="bgImg" alt="pic1">
+	<div class="content" id="products"> 
+		<h1>Shop Here</h1>
+		<h2>Find our products</h2>
+		<button class="main_btn"><a href="https://w1810002.users.ecs.westminster.ac.uk/BuyProducts.html#products">Shop</a></button>
+	</div>
+</section>
+<section>
+	<img src="media/pic2.jpg" class="bgImg" alt="pic2">
+	<div class="content" id="query">
+		<h1>Having trouble with something?</h1>
+		<h2>Send us a query</h2>
+		<button class="main_btn"><a href="query.html">Contact Us</a></button>
+	</div>
+</section>
+<section>
+	<img src="media/pic3.jpg" class="bgImg" alt="pic3">
+	<div class="content" id="about">
+		<h1>Who are We?</h1>
+		<h2>Come find out what we do</h2>
+		<button class="main_btn"><a href="https://w1809999.users.ecs.westminster.ac.uk/aboutus.html">About Us</a></button>
+	</div>
+</section>
+<section>
+	<img src="media/pic4.jpg" class="bgImg" alt="pic4">
+	<div class="content" id="quiz">
+		<h1>Lets have some fun</h1>
+		<h2>Take a quiz</h2>
+		<button class="main_btn"><a href="https://w1809999.users.ecs.westminster.ac.uk/quiz.html">Quiz</a></button>
+	</div>
+</section>
+<section>
+	<img src="media/pic6.jpg" class="bgImg" alt="pic6">
+	<div class="content" id="gallery">
+		<h1>Some of the greatest moments in music history</h1>
+		<h2>Relive The highlights</h2>
+		<button class="main_btn"><a href="https://w1809847.users.ecs.westminster.ac.uk/thumbnail.html#products">Gallery</a></button>
+	</div>
+</section>
+<section>
+	<img src="media/pic7.jpg" class="bgImg" alt="pic7">
+	<div class="content" id="sitemap">
+		<h1>Access different parts of our webpage easily</h1>
+		<button class="main_btn"><a href="https://w1809847.users.ecs.westminster.ac.uk/Sitemap.html">Sitemap</a></button>
+	</div>
+</section>
+<!--Background music-->
+<audio id="mySong">
+	<source src="media/song1.mp3" type="audio/mp3">
+</audio>
+<!--footer-->
+<footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>company</h4>
+  	 			<ul>
+  	 				<li><a href="#">about us</a></li>
+  	 				<li><a href="#">our services</a></li>
+  	 				<li><a href="#">privacy policy</a></li>
+  	 				<li><a href="#">affiliate program</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>get help</h4>
+  	 			<ul>
+  	 				<li><a href="#">FAQ</a></li>
+  	 				<li><a href="#">shipping</a></li>
+  	 				<li><a href="#">returns</a></li>
+  	 				<li><a href="#">order status</a></li>
+  	 				<li><a href="#">payment options</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>online shop</h4>
+  	 			<ul>
+  	 				<li><a href="#">Instruments</a></li>
+  	 				<li><a href="#">Merchendise</a></li>
+  	 				<li><a href="#">Albums</a></li>
+  	 				<li><a href="#">Accessories</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fab fa-twitter"></i></a>
+  	 				<a href="#"><i class="fab fa-instagram"></i></a>
+  	 				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+				<button class="main_btn"><a href="pageEditor(std_2).html">Page Editor</a></button>
+  	 		</div>
+  	 	</div>
+	<br><br><p style="color:white; text-align: center;">Thank you for visiting meet the beat. Come visit us again soon.</p>
+  	</div>
+</footer>
+
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
